@@ -21,11 +21,8 @@ int sumNumber(int [] arrey)
     int sum = 0;
     for(int i = 1; i<arrey.Length; i+=2)
     { 
-        //int res = 0; 
-        
         sum = sum + arrey[i];
         res = sum;
-        
     }
    return res; 
 }
